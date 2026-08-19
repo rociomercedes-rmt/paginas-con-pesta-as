@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Escuela Tecnica N°5</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="menu-bar">
+        <ul class="paginas">
+             <li><a href="{{ url_for('home') }}" class="pestana">Home</a></li>
+            <li><a href="{{ url_for('orientaciones') }}" class="pestana">Orientaciones</a></li>
+            <li><a href="{{ url_for('historia') }}" class="pestana">Historia</a></li>
+            <li><a href="{{ url_for('inscripcion') }}" class="pestana">Inscripcion</a></li>
+            
+        </ul>
+    </div>
+
+    <div class="hero-container">
+       <h1 class="titulo-hero">Escuela Tecnica N°5</h1>
+       <p class="texto-hero"></p>
+    </div>
+
+
+    <div class="pagina-inscripcion">
+        <h3 class="titulo-inscrip">Documentación para Alumnos ingresantes</h3>
+        <ul class="item-inscrip">
+            <li class="item">DNI del alumno: Fotocopia del anverso y reverso (presentar original para verificar).</li>
+            <li class="item">Acta o Partida de nacimiento: Original o copia legalizada.</li>
+            <li class="item">Certificado de estudios primarios: Constancia de alumno regular de 6mo grado, fotocopia de libro matriz o certificado de finalización de la escuela primaria.</li>
+            <li class="item">Pase escolar: En caso de provenir de otra institución o año avanzado.</li>
+            <li class="item">DNI del adulto responsable: Fotocopia del documento del padre, madre o tutor legal.</li>
+            <li class="item">Ficha médica / Certificado de aptitud física: Solicitado habitualmente por la institución.</li>
+        </ul>
+    </div>
+
+
+                <!-- Footer -->
+     <footer>
+       <p class="texto-footer-1">© 2026. Todos los derechos reservados.</p> 
+       <p class="texto-footer-2">Desarrollado por CURSO PROGRAMACION 2026</p> 
+     </footer>
+
+</body>
+</html>
